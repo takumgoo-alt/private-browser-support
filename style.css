@@ -43,9 +43,13 @@ details p{margin:0 0 24px;color:var(--muted);font-size:14px;max-width:780px}
 details p a,.policy-document a{color:#96d0ff;text-decoration:underline;text-underline-offset:3px}
 .contact-panel{background:linear-gradient(140deg,#142238,#111825 72%);border:1px solid #2a4361;border-radius:22px;padding:36px 38px}
 .contact-panel p{color:#b8c6d7;max-width:750px;font-size:14px}
-.email-panel{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 20px;background:rgba(5,12,24,.4);border:1px solid #32475f;padding:14px 20px;border-radius:12px;margin:22px 0}
-.email-caption{font-size:12px;color:#a2b8cb}
-.email-address{font-size:clamp(13px,2vw,16px);font-weight:700;color:#8bcaff;overflow-wrap:anywhere}
+.support-panel{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px 20px;background:rgba(5,12,24,.4);border:1px solid #32475f;padding:19px 20px;border-radius:12px;margin:22px 0}
+.support-text{display:flex;flex-direction:column;gap:2px}
+.support-caption{font-size:12px;color:#a2b8cb}
+.support-title{font-size:18px;color:#a9dcff;font-weight:700;line-height:1.5}
+.support-panel .primary-link{white-space:nowrap}
+.support-link{color:#93ceff;text-decoration:underline;text-underline-offset:3px}
+.support-link:hover{color:#c5e6ff}
 .contact-note{font-size:12px!important;color:#91a3ba!important;margin-bottom:0}
 .site-footer{border-top:1px solid rgba(151,182,226,.14);margin-top:35px}
 .footer-inner{min-height:108px;display:flex;align-items:center;flex-wrap:wrap;gap:16px 30px;color:#b5c2d3;font-size:13px}
